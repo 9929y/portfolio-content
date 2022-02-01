@@ -6,28 +6,19 @@ body{
 	font-size:150%;
 }
 
-/*Make the h1 heading bigger with a bold font*/
 h1{
 	font-size: 2em; 
 	font-weight: bold;
 }
 
 
-.active{
-	background: white;
-    text-transform: uppercase;
-	text-align: center;
-}
 
-.active a{
-	text-decoration: none;;
-}
 
 /*Style the images*/
 img{
-    height: 200px;
-    width:auto;
-    border: 3px ;
+    height: auto;
+    width:300px;
+    border: 3px solid lightgoldenrodyellow;
     padding: 5px;
     border-radius: 1px;
     margin: 5px;
@@ -51,17 +42,35 @@ header, nav, main, h1, footer{
 	margin: 10px 0;
 }
 
+img:hover{
+	filter:grayscale();
+	border: dashed;
+}
+
 
 /*Change the styling for all of the list 
 items in the nav section*/
 nav li{
-	background-color: #a09d8d;
-	padding:10px;
-	width:25%;
+	padding:4px;
+	margin: 2px; 
+	width:22%;
 	border:1px solid black;
 	display: inline-block;
-	width: 20%;
+	text-align: center;
 }
+
+.active{
+    text-transform: uppercase;
+	text-align: center;
+	border:2px;
+	background-color: #fff4b3;
+	color:Black
+}
+
+.active a{
+	text-decoration: none;;
+}
+
 
 
 
