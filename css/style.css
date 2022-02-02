@@ -1,5 +1,4 @@
-/*Add padding and margin to space out the page.
-Make the font larger too.*/
+
 body{
 	margin:1%;
 	padding:1%;
@@ -13,8 +12,6 @@ h1{
 
 
 
-
-/*Style the images*/
 img{
     height: auto;
     width:300px;
@@ -24,19 +21,16 @@ img{
     margin: 5px;
 }
 
-/*Make the h2 heading match h1*/
 h2{
 	font-size: 2em; 
 	font-weight: bold;
 }
 
-/*Improve the spacing for paragraphs AND headings*/
 p, h1, h2 {
     padding: 10px;
 }
 
-/*Add borders around the main components and some
-space too*/
+
 header, nav, main, h1, footer{
 	border: 2px solid grey;
 	margin: 10px 0;
@@ -47,9 +41,6 @@ img:hover{
 	border: dashed;
 }
 
-
-/*Change the styling for all of the list 
-items in the nav section*/
 nav li{
 	padding:4px;
 	margin: 2px; 
@@ -71,9 +62,5 @@ nav li{
 	text-decoration: none;;
 }
 
-
-
-
-/*Added this so the links stay the same color*/
 a:visited{color:#575552}
 
